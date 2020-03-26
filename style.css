@@ -1,0 +1,63 @@
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+	font-family: Gotham Rounded, sans-serif;
+	font-weight: normal;
+}
+
+body {
+	padding: 0;
+	margin: 0;
+	background-color: lightgoldenrodyellow;
+}
+
+.container {
+	width: 400px;
+	margin: auto;
+	border: 1px solid #717171;
+}
+
+.screen {
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	align-items: flex-end;
+	flex-direction: column;
+	word-wrap: break-word;
+	word-break: break-all;
+
+	height: 120px;
+	background-color: darkslategrey;
+	color: #e8e8e8;
+	padding: 5px;
+}
+
+.previous-operand {
+	font-size: 23px;
+	opacity: 0.8;
+}
+.current-operand {
+	font-size: 30px;
+}
+
+.keyboard {
+	height: 500px;
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+}
+
+.keyboard-button {
+	font-size: 25px;
+	cursor: pointer;
+	background-color: lightgrey;
+	border: 1px solid darkgray;
+}
+
+.keyboard-button:hover {
+	background-color: #e3e3e3;
+}
+
+.span-two {
+	grid-column: span 2;
+}
