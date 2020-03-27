@@ -7,9 +7,11 @@
 }
 
 body {
-	padding: 0;
-	margin: 0;
-	background-color: lightgoldenrodyellow;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 100vh;
+	background: linear-gradient(to right, #adb5a8, #8a9d7e, #adb5a8);
 }
 
 .container {
@@ -28,7 +30,7 @@ body {
 	word-break: break-all;
 
 	height: 120px;
-	background-color: darkslategrey;
+	background-color: #2b4343;
 	color: #e8e8e8;
 	padding: 5px;
 }
@@ -48,10 +50,12 @@ body {
 }
 
 .keyboard-button {
-	font-size: 25px;
+	font-size: 30px;
 	cursor: pointer;
-	background-color: lightgrey;
-	border: 1px solid darkgray;
+	background-color: #cecece;
+	border: 1px solid #a9a9a9;
+	min-width: 100px;
+	outline: none;
 }
 
 .keyboard-button:hover {
